@@ -1,0 +1,99 @@
+@font-face {
+    font-family: Raleway;
+    src: url(../Raleway/Raleway-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Raleway;
+    src: url(../Raleway/Raleway-Italic-VariableFont_wght.ttf);
+    font-style: italic;
+}
+
+body{
+    font-family:'Oswald', sans-serif;
+    background: #0A0216;
+    padding:0 130px ;
+}
+header {
+   display: flex;
+   gap: 140px;
+   margin-top: 24px;
+
+}
+.logo{
+   color:white; 
+   display: flex;
+   align-items: center;
+   height: 76px;
+}
+
+nav {
+   flex-grow: 1;
+}
+.infoMenu {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+
+ font-family: 'Raleway';
+ font-size: 18px;
+ 
+ line-height: 125%;
+ margin-bottom: 60px;
+
+
+
+}
+
+.infoMenu a {
+    color:#FFFFFF;
+    text-decoration: none;
+    
+}
+
+.inputbox{
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 2px;
+    padding: 12px;
+    
+    width: 325px;
+
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.inputbox img {
+   width: 15px;
+   height: 15px;
+}
+.inputbox input {
+     border: 0;
+     outline: 0;
+     background: transparent;
+     color:#FFFFFF;
+}
+a.login {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color:#F50395;
+}
+
+.categories{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 125%;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+.categories a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.choices{
+    font-family: 'Raleway';
+    font-weight: 400;
+}
